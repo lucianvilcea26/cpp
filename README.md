@@ -14,7 +14,7 @@ Structura laboratorului:
 12. STL (Standard Template Library), containere, ieratori si algoritmi
 13. STL (Standard Template Library), RTTI (Run Time Type Identification)
 
-#Resurse
+# Resurse
 
 - Bjarne Strastroup – The Creator of C++, “The C++ Programming Language” (C++11) - 4th Edition, Editura Addison-Wesley, ISBN 978-0321563842, 2013​
 - C++ 2011 Draft Standard – January 2012: [https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf​](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf​)
