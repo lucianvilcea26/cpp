@@ -46,5 +46,6 @@ int main()
     x[2] = 6;
     x.print();
     x[8] = 6;
+    x.print();
     return 0;
 }

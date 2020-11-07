@@ -26,11 +26,7 @@ class Returnable
 {
 public:
 	int x, y;
-	Returnable() 
-	{
-		this->x = 0;
-		this->y = 0;
-	}
+	Returnable() {}
 	Returnable(int x, int y)
 	{
 		this->x = x;
@@ -80,8 +76,7 @@ int main()
 	cout << "Q: (" << q.x << ", " << q.y << ")" << endl;
 
 	Decision y(4);
-	bool result = !y;
-	if (result == true)
+	if (!y == true)
 		cout << "x nu este 0";
 	else
 		cout << "x este 0";

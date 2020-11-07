@@ -10,7 +10,7 @@ public:
     {
     }
 
-    operator int() const 
+    operator int() 
     { 
         return value; 
     }

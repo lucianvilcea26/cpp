@@ -12,51 +12,46 @@ public:
 
 class Level1 {
 public:
-	BaseClass* parent;
-	Level1(BaseClass* parent)
+	BaseClass* baseClass;
+	Level1(BaseClass* baseClass)
 	{
-		this->parent = parent;
+		this->baseClass = baseClass;
 	}
 	BaseClass* operator -> ()
 	{
-		return parent;
+		return baseClass;
 	}
 };
 
 class Level2 {
 public:
-	Level1* parent;
-	Level2(Level1* parent)
+	Level1* level1;
+	Level2(Level1* level1)
 	{
-		this->parent = parent;
+		this->level1 = level1;
 	}
 	Level1& operator ->()
 	{
-		return *parent;
+		return *level1;
 	}
 };
 
 class Level3 {
 public:
-	Level2* parent;
-	Level3(Level2* parent)
+	Level2* level2;
+	Level3(Level2* level2)
 	{
-		this->parent = parent;
+		this->level2 = level2;
 	}
 	Level2& operator ->()
 	{
-		return *parent;
+		return *level2;
 	}
-};
-class Ceva
-{
-public:
-	int x;
 };
 
 int main()
 {
-	/*BaseClass w(3);
+	BaseClass w(3);
 	cout << "From base class: "<<w.a << endl;
 	Level1 x(&w);
 	cout << "From level 1 class: " << x->a << endl;
@@ -71,8 +66,5 @@ int main()
 	cout << "From base class: " << w.a << endl;
 	cout << "From level 1 class: " << x->a << endl;
 	cout << "From level 2 class: " << y->a << endl;
-	cout << "From level 3 class: " << z->a << endl;*/
-
-	Ceva a{};
-	cout << a.x;
+	cout << "From level 3 class: " << z->a << endl;
 }

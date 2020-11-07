@@ -16,6 +16,10 @@ public:
         this->name = name;
         this->age = age;
     }
+    ~Student()
+    {
+        cout << "Destructor is called";
+    }
     void display()
     {
         cout << "Name:" << name << endl;

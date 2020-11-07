@@ -39,11 +39,11 @@ public:
 
 int main()
 {
-	Linear x(4, 3);
-	cout << x(2) << endl;
+	Linear linear(4, 3);
+	cout << linear(2) << endl;
 
-	Quadratic y(3, 2, 1);
-	cout << y(2);
+	Quadratic quad(3, 2, 1);
+	cout << quad(2);
 
 	return 0;
 }
