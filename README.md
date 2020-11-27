@@ -5,7 +5,7 @@ Structura laboratorului:
 3. Constructori, Destructor;
 4. Constructor copiere, supraîncarcarea operatorului =;
 5. Supraîncărcarea operatorilor (<<, >>, +, -, *, /, ++, --);
-6. Supraîncărcarea operatorilor (+=, [], ( ), !, ->, new, delete, cast);
+6. Supraîncărcarea operatorilor (+=, -=, *=, /=, [], ( ), !, ->, new, delete, cast);
 7. Derivarea/Moșternirea
 8. Funcții virtuale, supradefinirea, moștenirea multiplă
 9. Clase abstracte, interfețe, mecanismul try-catch, domenii de nume;
