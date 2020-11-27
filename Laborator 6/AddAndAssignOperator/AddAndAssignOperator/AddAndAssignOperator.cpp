@@ -9,9 +9,9 @@ public:
 	{
 		this->a = a;
 	}
-	Numbers& operator +=(const Numbers& y)
+	Numbers& operator +=(const Numbers& w)
 	{
-		this->a = this->a + y.a;
+		this->a = this->a + w.a;
 		return *this;
 	}
 

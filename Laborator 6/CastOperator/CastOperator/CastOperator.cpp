@@ -21,7 +21,7 @@ class Dollar
 private:
     int value;
 public:
-    Dollar(int value = 0) : value(value)
+    Dollar(int value) : value(value)
     {
     }
 

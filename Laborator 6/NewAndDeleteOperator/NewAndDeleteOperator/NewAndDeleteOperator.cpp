@@ -13,6 +13,7 @@ public:
     }
     Student(string name, int age)
     {
+        cout << "Parameters constructor is called";
         this->name = name;
         this->age = age;
     }
@@ -36,6 +37,7 @@ public:
     static void operator delete(void* p)
     {
         cout << "Overloading delete operator " << endl;
+
         free(p);
     }
 };

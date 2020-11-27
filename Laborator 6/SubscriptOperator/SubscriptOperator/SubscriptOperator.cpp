@@ -44,7 +44,7 @@ int main()
     int a[] = { 1, 2, 3, 4 };
     Numbers x(a, 4);
     x[2] = 6;
-    x.print();
+    x.print(); 
     x[8] = 6;
     x.print();
     return 0;
